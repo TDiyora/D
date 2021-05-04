@@ -1,0 +1,11 @@
+def calling(name):
+    calling("Maksim")
+    calling("Diyora")
+    calling("Andrey")
+    calling("Anita")
+    calling("Admin")
+name=input("name")
+if name=="Admin":
+    print("Hello, Admin. Do you want to change the settings?")
+else:
+    print("Hi, nice to meet you again, " + name)

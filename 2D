@@ -1,0 +1,35 @@
+def user(*current_users):
+    
+    
+    user1, user2, user3, user4, user5 = current_users
+    print(f"user1: {user1}, user2: {user2}, user3: {user3}, user4: {user4}, user5: {user5}") 
+user( "diyora", "dtashmetova", "diviva", "tashmetova", "diyorat")
+
+
+
+def usor(*new_users):
+    usor1, usor2, usor3, usor4, usor5 = new_users
+    print(f"usor1: {usor1}, usor2: {usor2}, usor3: {usor3}, usor4: {usor4}, usor5: {usor5}") 
+usor( "diyora", "dyukiko", "diviva", "dododo", "lilo")
+
+    
+username=input("Create a username ")
+if username==current_users:
+    print("Sorry, this username already exists.")
+else:
+    print("thank you")
+    
+    
+    
+    
+    #or this code
+    current_users = ["diyora", "diviva", "dtashmetova", "tashmetova", "diyorat"]
+new_users = ["diyora", "dyukiko" "diviva",
+             "dododo", "lilo"]
+name=input()
+
+for name in new_users:
+    if name in current_users:
+        print("Username already exists. Please enter another one.")
+    else:
+        print("This username is available.")
